@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <h1>Página de Cadastro</h1>
+    <fieldset><legend>Criar sua conta</legend>
+    <form>
+        <label for="Nome">Nome:</label>
+        <br>
+        <input type="text" name="nome" id="Nome">
+        <br>
+        <br>
+        <label for="E-mail" >E-mail:</label>
+        <br>
+        <input type="email" name="E-mail" id="E-mail" pattern="/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/" required placeholder="TesteEmail@Algo">
+        <br>
+        <br>
+        <label for="Senha">Senha (mínimo 8 caracteres):</label>
+        <br>
+        <input type="password" name="Senha" id="Senha" min="8" required pattern=".{8,}">
+
+     <h1><b>Gênero</b></h1>
+    
+     <label for="Feminino">Feminino</label>
+     <input type="radio" name="Genero" id="Feminino" value="Feminino">
+     <br>
+     <label for="Masculino">Masculino</label>
+     <input type="radio" name="Genero" id="Masculino" value="Masculino">
+     <br>
+    <label for="Outro">Outro</label>
+     <input type="radio" name="Genero" id="Outro" value="Outro">
+     <br>
+<br>
+     <label for="Biografia">Biografia:</label>
+     <br>
+     <textarea name="Biografia" id="Biografia" placeholder="Me chamo Pedro sou de Minas gerais, tenho 32 anos..." rows="5"></textarea>
+<br>
+<br>
+     <input type="checkbox" name="termos" id="termos" value="Aceito" required>
+     <label for="termos">Eu li e aceito os termos de serviço</label>
+     <br>
+     <br>
+     <input type="submit" value="Cadastrar">
+     <input type="submit" value="Enviar">
+    </form>
+</fieldset>
+</body>
+</html>
