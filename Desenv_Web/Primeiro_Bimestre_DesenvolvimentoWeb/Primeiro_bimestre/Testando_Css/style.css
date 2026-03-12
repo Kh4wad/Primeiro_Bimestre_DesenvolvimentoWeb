@@ -1,0 +1,66 @@
+/*Todo html tera isso*/
+html{
+    height: 100vh;
+    background-color: rgb(207, 109, 109);
+}
+/*Coloca dentro do id*/
+#container{
+    height: 200px;
+    width: 400px;
+    background-color: turquoise;
+}
+/*Coloca dentro da classe*/
+.products{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(0, 255, 0);
+
+}
+/*
+p{
+    font-size: 100px;
+}
+    */
+/*So quem tem div e paragrafo dentro tera essa mudanca*/
+    div p{
+        color: rgb(0, 0, 0);
+        font-size: 80px;
+    }
+        
+/*Primeiro elemento que aparece na quele local*/
+    .btn{
+    padding: 12px;
+    font-size: 44px;
+    }
+    .btn:hover{
+    background-color: rgb(0, 195, 255);
+    cursor: pointer;
+    }
+
+    .Cadastro{
+        width: 200px;
+        height: 40px;
+        border-width: 12px;
+    }
+    .Cadastro:hover{
+        background-color: rgb(0, 195, 255);
+        cursor: pointer;
+    }
+.content-box{
+    box-sizing: content-box;
+    width: 300px;;
+    width: 200px;
+    height: 40px;
+    border-width: 12px;
+    color: rgb(207, 109, 109);
+}
+.border-box{
+    width: 200px;
+    height: 40px;
+    border-width: 12px;
+    box-sizing: border-box;
+    color: sienna;
+}
+background-image{
+  background-image: "https://labetno.ufpa.br/images/galeria_em_artigos/image03_grd.png";
+}

@@ -1,0 +1,40 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+html{
+    background-color: #2a611c;
+}
+
+.card{
+background-color: aliceblue;
+margin: 40px auto;
+padding: 20px;
+border: 1px solid #0a0909;
+max-width: 600px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: #680d3b;
+}
+
+nav a:hover {
+    color: #2bb189; 
+    border-bottom: 2px solid #007bff; 
+}
+
+
+h2{
+    color: #2e1d79;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.imgCarro{
+    width: 100%;
+    height: auto;
+}
