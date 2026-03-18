@@ -1,0 +1,28 @@
+html {
+  background-color: #fce0b6;
+}
+.div-pai {
+  border: 2px solid black;
+  height: 400px;
+  display: flex;
+  /* Altera a posicao dos elementos */
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* flex-grow: 1; */
+  gap: 8px;
+  justify-content: space-between;
+  /*align-items: center; */
+  
+}
+.div-filho {
+  border: 2px solid rgb(244, 133, 133);
+  width: 120px;
+  height: 120px;
+  background-color: rgb(244, 154, 242);
+}
+
+@media (max-width: 500px) {
+  html{
+    background-color: #f706ae;
+  }
+}

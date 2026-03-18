@@ -1,0 +1,43 @@
+html{
+    background: #fdc1c1;
+    /* overflow-x: hidden; */
+}
+
+.container-pai{
+    height: 280px;
+    width: 620px;
+    background-color: #8ef3d1;
+    position: relative;
+}
+
+.container-filho{
+    height: 140px;
+    width: 310px;
+    left: 80px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #d6f38e;
+}
+.container-filho-dois{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    left: 70px;
+    z-index: 4;
+    background-color: #a26ada;
+}
+
+.exemplos-border{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    align-items: center;
+    opacity: 50%;
+    background-color: aqua;
+}
+.tamanho-min{
+    background-color: #187c36;
+    min-width: 40px;
+    width: 140px;
+    align-items: center;
+}
