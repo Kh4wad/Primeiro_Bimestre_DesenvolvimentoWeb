@@ -1,0 +1,18 @@
+#titulo-principal {
+  color: red;
+}
+
+.cor-verde {
+  color: green;
+}
+
+#container {
+  /* transforma em flex */
+  display: flex;
+  /* coloca a posicao */
+  flex-direction: column;
+  /* centraliza os itens */
+  justify-content: center;
+  /* alinha os itens */
+  align-items: center;
+}
