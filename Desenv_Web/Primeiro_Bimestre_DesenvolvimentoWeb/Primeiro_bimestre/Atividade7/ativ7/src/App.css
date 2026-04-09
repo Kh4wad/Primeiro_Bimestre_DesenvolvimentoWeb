@@ -2,22 +2,40 @@ html {
   background-color: rgb(66, 185, 189);
 }
 
-body {
+.app {
   margin: 0;
   display: grid;
   grid-template-areas:
-    "header header"
+    "header-area header-area"
     "main aside"
     "footer footer";
   grid-template-columns: 3fr 1fr;
   gap: 20px;
   padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-header {
-  grid-area: header;
+.header-area {
+  grid-area: header-area;
   background: white;
   padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background: yellow;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 main {
@@ -39,35 +57,28 @@ footer {
   text-align: center;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  background: yellow;
-  padding: 10px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+figure {
+  margin: 0;
 }
 
 img {
   width: 100%;
   border-radius: 5px;
+  max-height: 400px;
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
-  body {
+  .app {
     grid-template-areas:
-      "header"
+      "header-area"
       "main"
       "aside"
       "footer";
     grid-template-columns: 1fr;
   }
 
-  nav {
+  nav ul {
     flex-direction: column;
     align-items: center;
     gap: 10px;
