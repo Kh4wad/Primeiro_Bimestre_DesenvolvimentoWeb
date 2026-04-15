@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 3px solid #000000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    border: 3px solid #cc0000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 80px;
+    background-color: #fff5f5;
+    background: rgb(26, 145, 71);
+}
+
+.area-logo {
+    border: 3px solid #0066cc;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 5px 15px;
+}
+
+.logo {
+    border: 3px solid #008844;
+    padding: 8px 20px;
+    font-size: 18px;
+}
+
+nav {
+    border: 3px solid #993366;
+    padding: 5px 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+.botoes-autenticacao {
+    border: 3px solid #ff6600;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+main {
+    border: 3px solid #550b92;
+    flex: 1;
+    padding: 30px 40px;
+    background: purple;
+}
+
+.secao-destaques {
+    border: 3px solid #00cccc;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.titulo-secao {
+    border: 3px solid #ffcc00;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.linha-cartoes {
+    border: 3px solid #ff00ff;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.item-cartao {
+    border: 3px solid #ff8800;
+    background-color: #fff8f0;
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.imagem-cartao {
+    width: 100%;
+    height: 180px;
+    background-color: #ddd;
+    border: 2px solid #999;
+}
+
+.numero-cartao {
+    border: 2px solid #cc0000;
+    background-color: #ffebee;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.texto-cartao {
+    border: 3px solid #888;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.secao-motivos {
+    border: 3px solid #00cccc;
+    padding: 20px;
+}
+
+.grade-motivos {
+    border: 3px solid #ff00ff;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cartao-motivo {
+    border: 3px solid #00cc44;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #f0fff0;
+}
+
+.imagem-motivo {
+    width: 100%;
+    height: 140px;
+    background-color: #ccc;
+    border: 2px solid #888;
+}
+
+.titulo-motivo {
+    border: 3px solid #ff0088;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.descricao-motivo {
+    border: 3px solid #0066cc;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}

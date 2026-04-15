@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 40px;
+    background-color: yellow;
+}
+
+.logo {
+    border: 3px solid orange;
+    padding: 10px 20px;
+}
+
+nav {
+    border: 3px solid green;
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.acoes {
+    border: 3px solid blue;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+main {
+    border: 3px solid rgb(49, 70, 139);
+    display: flex;
+    flex: 1;
+    padding: 40px;
+    gap: 40px;
+    background-color: rgb(121, 35, 35);
+}
+
+.conteudo-texto {
+    border: 3px solid rgb(77, 34, 17);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.conteudo-texto h1 {
+    border: 3px solid rgb(136, 138, 33);
+    padding: 10px;
+}
+
+.conteudo-texto p {
+    border: 3px solid rgb(19, 84, 105);
+    padding: 10px;
+}
+
+.botoes {
+    border: 3px solid rgb(34, 138, 34);
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+.botoes button {
+    padding: 10px 20px;
+    border: 1px solid rgb(60, 34, 155);
+    background-color: white;
+}
+
+.conteudo-imagem {
+    border: 3px solid brown;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.conteudo-imagem img {
+    border: 3px solid gray;
+    max-width: 100%;
+    height: auto;
+}
