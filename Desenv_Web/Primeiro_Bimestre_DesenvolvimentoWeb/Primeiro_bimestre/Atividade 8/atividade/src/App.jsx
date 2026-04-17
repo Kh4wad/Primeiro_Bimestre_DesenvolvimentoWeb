@@ -34,7 +34,6 @@ export default function App() {
 
   return (
     <div>
-
       <form onSubmit={adicionarItem}>
         <input
           type="text"
